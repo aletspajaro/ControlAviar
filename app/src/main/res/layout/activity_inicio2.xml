@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/r_datos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a8ab47_6e5beef08e504f5a824f1ad5185c3512"
+    tools:context=".Inicio2">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="466dp"
+        android:layout_height="52dp"
+        android:backgroundTint="#A57957"
+        android:text="Bienvenido"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041" />
+
+    <Button
+        android:id="@+id/btnSALIR"
+        android:layout_width="97dp"
+        android:layout_height="40dp"
+        android:backgroundTint="#A57957"
+        android:text="Cerrar"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.965" />
+
+    <Button
+        android:id="@+id/btnmas"
+        android:layout_width="80dp"
+        android:layout_height="38dp"
+        android:backgroundTint="#A57957"
+        android:text="Mas"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.909"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.943" />
+
+    <Button
+        android:id="@+id/btn_consultar"
+        android:layout_width="84dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:text="Ver"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.136" />
+
+    <Button
+        android:id="@+id/btn_insertar"
+        android:layout_width="93dp"
+        android:layout_height="43dp"
+        android:text="Insertar"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.301"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.136" />
+
+    <Button
+        android:id="@+id/btn_modificar"
+        android:layout_width="112dp"
+        android:layout_height="42dp"
+        android:text="Modificar"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.658"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.137" />
+
+    <Button
+        android:id="@+id/btn_borrar"
+        android:layout_width="90dp"
+        android:layout_height="43dp"
+        android:text="Borrar"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.987"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.136" />
+
+    <EditText
+        android:id="@+id/et_id"
+        android:layout_width="250dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:textAlignment="center"
+        android:textColor="#573110"
+        android:textColorHint="#8A7249"
+        android:textStyle="bold"
+        android:hint="   Id"
+        android:background="@drawable/a8ab47_6e5beef08e504f5a824f1ad5185c3512"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.135"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.213" />
+
+    <EditText
+        android:id="@+id/et_nombre"
+        android:layout_width="250dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:textAlignment="center"
+        android:textColor="#573110"
+        android:textColorHint="#8A7249"
+        android:textStyle="bold"
+        android:layout_marginTop="4dp"
+        android:hint="   Nombre"
+        android:inputType="text"
+        android:background="@drawable/a8ab47_6e5beef08e504f5a824f1ad5185c3512"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.135"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.272" />
+
+    <EditText
+        android:id="@+id/et_especie"
+        android:layout_width="250dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:hint="   Especie"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:inputType="text"
+        android:textColor="#573110"
+        android:textColorHint="#8A7249"
+        android:textStyle="bold"
+        android:background="@drawable/a8ab47_6e5beef08e504f5a824f1ad5185c3512"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.135"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.331" />
+
+    <EditText
+        android:id="@+id/et_sexo"
+        android:layout_width="250dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/a8ab47_6e5beef08e504f5a824f1ad5185c3512"
+        android:ems="10"
+        android:hint="   Sexo"
+        android:textAlignment="center"
+        android:inputType="text"
+        android:textColor="#573110"
+        android:textColorHint="#8A7249"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.136"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4" />
+
+    <EditText
+        android:id="@+id/et_etapa"
+        android:layout_width="250dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/a8ab47_6e5beef08e504f5a824f1ad5185c3512"
+        android:ems="10"
+        android:hint="   Etapa"
+        android:textAlignment="center"
+        android:inputType="text"
+        android:textColor="#573110"
+        android:textColorHint="#8A7249"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.136"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.46" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="113dp"
+        android:layout_height="426dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.979"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.55"
+        app:srcCompat="@drawable/pajaroz" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="115dp"
+        android:layout_height="320dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.986"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.153"
+        app:srcCompat="@drawable/ag" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="116dp"
+        android:layout_height="232dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.979"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.871"
+        app:srcCompat="@drawable/pt" />
+
+
+
+    <TextView
+        android:id="@+id/tvConsulta"
+        android:layout_width="246dp"
+        android:layout_height="274dp"
+        android:background="@drawable/a8ab47_6e5beef08e504f5a824f1ad5185c3512"
+        android:text="*"
+        android:textAlignment="gravity"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.82" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

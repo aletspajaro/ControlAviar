@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ControlAviar</string>
+    <string name="strCrear_Cuenta"><u>Crear Cuenta</u></string>
+    <string name="strolvidarpass"><u>Olvidaste tu contraseña</u></string>
+</resources>

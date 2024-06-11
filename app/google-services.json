@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1092789298636",
+    "project_id": "controlaviar-798ef",
+    "storage_bucket": "controlaviar-798ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092789298636:android:d1e1120a2834e902f12969",
+        "android_client_info": {
+          "package_name": "com.tesji.controlaviar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlPKsorTg2aMtiZ2lvfaHUNrFS_cvBJ5E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

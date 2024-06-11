@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a8ab47_6e5beef08e504f5a824f1ad5185c3512"
+    tools:context=".CrearCuentaActivity">
+
+    <Button
+        android:id="@+id/buttoncrearcuenta"
+        android:layout_width="468dp"
+        android:layout_height="54dp"
+        android:backgroundTint="#A57957"
+        android:text="CREAR CUENTA"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.073" />
+
+    <Button
+        android:id="@+id/btncrearnueva"
+        android:layout_width="99dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="44dp"
+        android:text="CREAR"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.482" />
+
+    <EditText
+        android:id="@+id/edtemailnuevo"
+        android:layout_width="255dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/a8ab47_6e5beef08e504f5a824f1ad5185c3512"
+        android:ems="10"
+        android:hint="correo electronico"
+        android:textColor="#573110"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textColorHint="#8A7249"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtnombre" />
+
+    <EditText
+        android:id="@+id/edtpasswordnuevo2"
+        android:layout_width="257dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/a8ab47_6e5beef08e504f5a824f1ad5185c3512"
+        android:ems="10"
+        android:hint="confirmar password"
+        android:inputType="textPassword"
+        android:textColor="#573110"
+        android:textAlignment="center"
+        android:textColorHint="#8A7249"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtpasswordnuevo1"
+        app:layout_constraintVertical_bias="0.01" />
+
+    <EditText
+        android:id="@+id/edtnombre"
+        android:layout_width="255dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/a8ab47_6e5beef08e504f5a824f1ad5185c3512"
+        android:ems="10"
+        android:hint="Nombre de Usuario"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColor="#573110"
+        android:textColorHint="#8A7249"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtpasswordnuevo1"
+        android:layout_width="257dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/a8ab47_6e5beef08e504f5a824f1ad5185c3512"
+        android:ems="10"
+        android:hint="password"
+        android:textColor="#573110"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColorHint="#8A7249"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtemailnuevo" />
+
+    <Button
+        android:id="@+id/btnregresarC"
+        android:layout_width="78dp"
+        android:layout_height="61dp"
+        android:backgroundTint="#A57957"
+        android:text="Salir"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="302dp"
+        android:layout_height="239dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.821"
+        app:srcCompat="@drawable/aves2app" />
+</androidx.constraintlayout.widget.ConstraintLayout>
